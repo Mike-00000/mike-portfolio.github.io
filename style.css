@@ -1097,6 +1097,9 @@ footer {
     a.anav {
         margin-right: 40px;
     }
+    .third_part_projects {
+        height: 320vh;
+    }
 }
 
 /* Pour les mobiles */
@@ -1137,23 +1140,54 @@ footer {
     .part2 {
         padding-bottom: 200px;
     }
+    .third_part_projects {
+        height: 300vh;
+    }
+    .logos3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 410px) {
+    .navbar {
+        width: 100%;
+    }
     .second_part_about_me {
-        width: 100vw;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .get_to_know_me €{
+        width: 100%;
+    }
+    .get_to_know_me p {
+        padding-right: 20px;
+    }
+    .get_to_know_me .skill {
+        margin-right: 100px;
     }
     
 }
 
 
 @media only screen and (max-width: 387px) {
+    .navbar {
+        width: 100%;
+    }
     .title {
         padding-top: 15rem;
+    }
+    .third_part_projects {
+        height: 315vh;
     }
 }
 
 @media only screen and (max-width: 345px) {
+    .navbar {
+        width: 100%;
+    }
     .first_part_me {
         height: 110vh;
     }
@@ -1161,12 +1195,25 @@ footer {
         padding-top: 20rem;
     }
 
+    .third_part_projects {
+        height: 350vh;
+    }
+
     .footer {
         padding-top: 90px;
     }
 }
 
+@media only screen and (max-width: 310px) {
+    .third_part_projects {
+        height: 380vh;
+    }
+}
+
 @media only screen and (max-width: 286px) {
+    .navbar {
+        width: 100%;
+    }
     .title {
         padding-top: 30rem;
     }
@@ -1176,10 +1223,17 @@ footer {
     .first_part_me {
         height: 120vh;
     }
+    .third_part_projects {
+        height: 380vh;
+    }
 }
 
 @media only screen and (max-width: 216px) {
+    .navbar {
+        width: 100%;
+    }
     .first_part_me {
         height: 120vh;
+        width: 100%;
     }
 }
