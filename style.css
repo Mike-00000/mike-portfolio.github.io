@@ -1040,12 +1040,19 @@ footer {
         height: 430px;
         padding-top: 50px;
     }
+    /* .third_part_projects {
+        margin-top: 50px;
+    } */
+    .part2 {
+        padding-bottom: 200px;
+    }
 }
 
 @media only screen and (max-width: 410px) {
     .second_part_about_me {
         width: 100vw;
     }
+    
 }
 
 
