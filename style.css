@@ -1197,9 +1197,11 @@ footer {
     .title {
         padding-top: 20rem;
     }
-
+    .part2 {
+        height: 150vh;
+    }
     .third_part_projects {
-        height: 350vh;
+        height: 420vh;
     }
 
     .footer {
