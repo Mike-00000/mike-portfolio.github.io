@@ -29,6 +29,7 @@ body {
     height: 80px;
     width: 100%;
     justify-content: space-between;
+    z-index: 10;
 }
 
 .logoname {
@@ -887,6 +888,10 @@ footer {
 
 
 @media only screen and (max-width: 1400px) {
+    .menu-toggle {
+        display: none;
+    }
+
     .third_part_projects {
         /* padding: 80rem 0 10rem 0; */
         /* background-image: url('fond7.avif'); */
@@ -895,17 +900,30 @@ footer {
 }
 
 @media only screen and (max-width: 846px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .mouse {
+        /* margin-bottom: -30px; */
+        display: none;
+    }
+
     .part2 {
         height: 120vh;
     }
     
 }
 
+@media (max-width: 807px) {
+    .mouse {
+        display: none;
+    }
+}
+
 /* Pour les tablettes */
 @media only screen and (max-width: 768px) {
-    body {
-        /* background-color: red; Ceci est juste pour le débogage. */
-    }
+    
     .menu-toggle {
         display: block;
         margin-left: auto;
@@ -967,7 +985,6 @@ footer {
         margin-top: 20px;
         text-align: center;
     }
-
     
     .intro {
         padding: 2rem 1rem;
@@ -1029,6 +1046,16 @@ footer {
 
 
 @media only screen and (max-width: 686px) {
+    
+    #face {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        /* margin: 0 20px; */
+        
+    }
+
+    
     .title {
         padding-top: 3rem;
     }
@@ -1052,6 +1079,23 @@ footer {
     }
     .forth_part_contact {
         /* margin-top: 200px; */
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    #face {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin: 0 20px;
+        
+    }
+
+    .name {
+        margin-left: 25px;
+    }
+    a.anav {
+        margin-right: 40px;
     }
 }
 
@@ -1110,6 +1154,9 @@ footer {
 }
 
 @media only screen and (max-width: 345px) {
+    .first_part_me {
+        height: 110vh;
+    }
     .title {
         padding-top: 20rem;
     }
@@ -1127,12 +1174,12 @@ footer {
         padding-top: 130px;
     }
     .first_part_me {
-        height: 100vh;
+        height: 120vh;
     }
 }
 
 @media only screen and (max-width: 216px) {
     .first_part_me {
-        height: 110vh;
+        height: 120vh;
     }
 }
