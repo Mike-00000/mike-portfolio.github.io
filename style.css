@@ -1148,6 +1148,9 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+    .trait {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 410px) {
