@@ -892,10 +892,15 @@ footer {
         display: none;
     }
 
+    .get_to_know_me, .myskills {
+        width: auto;
+        margin: auto;
+    }
+
     .third_part_projects {
         /* padding: 80rem 0 10rem 0; */
         /* background-image: url('fond7.avif'); */
-        height: 250vh;
+        height: 290vh;
     }
 }
 
@@ -1009,14 +1014,14 @@ footer {
 
     .get_to_know_me, .myskills {
         margin: 1rem 0;
-        width: 100%;
+        width: auto;
         padding: 1rem;
     }
 
     .third_part_projects {
         /* padding: 80rem 0 10rem 0; */
         /* background-image: url('fond7.avif'); */
-        height: 370vh;
+        height: 440vh;
     }
 
     .portfolio {
@@ -1067,7 +1072,7 @@ footer {
     .third_part_projects {
         /* padding: 80rem 0 10rem 0; */
         /* background-image: url('fond7.avif'); */
-        /* height: 310vh; */
+        /* height: 700vh; */
         /* padding-bottom: -200px; */
     }
 
@@ -1098,12 +1103,15 @@ footer {
         margin-right: 40px;
     }
     .third_part_projects {
-        height: 320vh;
+        height: 420vh;
     }
 }
 
 /* Pour les mobiles */
 @media only screen and (max-width: 540px) {
+    .menu-toggle {
+        display: none;
+    }
     .title {
         font-size: 2rem;
         padding-top: 5rem;
@@ -1140,10 +1148,14 @@ footer {
     .part2 {
         padding-bottom: 200px;
     }
+    .button {
+        margin: 0;
+    }
     .third_part_projects {
-        height: 300vh;
+        height: 350vh;
     }
     .logos3 {
+        width: 360px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1157,21 +1169,26 @@ footer {
     .navbar {
         width: 100%;
     }
+    .menu-toggle {
+        /* display: none; */
+    }
     .second_part_about_me {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
     .get_to_know_me €{
-        width: 100%;
+        width: 90%;
     }
     .get_to_know_me p {
-        padding-right: 20px;
+        /* padding-right: 20px; */
     }
     .get_to_know_me .skill {
-        margin-right: 100px;
+        /* margin-right: 100px; */
     }
-    
+    .third_part_projects {
+        height: 395vh;
+    }
 }
 
 
@@ -1193,6 +1210,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .logos3 {
+        width: auto;
+    }
+}
+
 @media only screen and (max-width: 345px) {
     .navbar {
         width: 100%;
@@ -1207,7 +1230,7 @@ footer {
         height: 150vh;
     }
     .third_part_projects {
-        height: 420vh;
+        height: 450vh;
     }
 
     .footer {
@@ -1217,7 +1240,7 @@ footer {
 
 @media only screen and (max-width: 310px) {
     .third_part_projects {
-        height: 380vh;
+        height: 480vh;
     }
 }
 
@@ -1247,4 +1270,5 @@ footer {
         height: 120vh;
         width: 100%;
     }
+    
 }
